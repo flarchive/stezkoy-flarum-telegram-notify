@@ -1,0 +1,49 @@
+stezkoy-telegram-notify:
+  admin:
+    connection_heading: Подключение
+    connection_intro: Данные Telegram-бота, который будет получать уведомления.
+    bot_token_label: Токен бота
+    bot_token_help: Получите у @BotFather в Telegram.
+    chat_id_label: ID чата
+    chat_id_help: ID канала или группы, например -1001234567890 или @channelusername.
+    proxy_label: Адрес прокси
+    proxy_help: Форматы socks5://host:port или http://host:port, авторизация через user:pass@host:port. Требуется cURL.
+    use_proxy_switch: Подключаться через прокси
+    use_proxy_help: Включите, если api.telegram.org недоступен с сервера напрямую.
+    use_topic_switch: Отправлять сообщения в конкретный топик
+    use_topic_help: Включите для Telegram-групп с форумами, где сообщения распределены по топикам.
+    topic_id_label: ID топика
+    topic_id_help: Числовой идентификатор топика (message_thread_id) в группе.
+    templates_heading: Шаблоны сообщений
+    templates_intro: Настройте, как будут выглядеть уведомления в Telegram. Поддерживается HTML-форматирование Telegram.
+    new_discussion_label: Шаблон для новой темы
+    new_post_label: Шаблон для нового сообщения
+    placeholders_heading: Доступные подстановки
+    examples_heading: Примеры
+    ex_minimal: только ссылка
+    ex_compact: компактное сообщение
+    ex_full: полная карточка с тегами и отрывком
+    ex_button: ссылка с надписью вместо голого URL
+    ex_link_word: Перейти в тему
+    ph_title: Заголовок темы
+    ph_author: Имя автора
+    ph_excerpt: Первые ~200 символов текста сообщения
+    ph_url: Ссылка на тему
+    ph_tags: Теги темы через пробел
+    html_hint: Поддерживаемые HTML-теги Telegram
+    hints_heading: Подсказки и примеры
+    hints_summary: Показать подстановки, HTML-теги и готовые шаблоны
+    test_button: Отправить тестовое сообщение
+    test_ok: Тестовое сообщение отправлено, проверьте Telegram
+    test_failed: Не удалось отправить запрос
+    test_sample_title: Тестовая тема
+    test_sample_excerpt: Это пример отрывка, чтобы проверить, как ваш шаблон выглядит в Telegram.
+    tag_bold: жирный текст
+    tag_italic: курсив
+    tag_underline: подчёркнутый текст
+    tag_strike: зачёркнутый текст
+    tag_link: ссылка, в href можно подставить {url}
+    tag_code: моноширинный текст
+    tag_pre: блок кода
+    tag_quote: цитата
+    tag_spoiler: скрытый текст (спойлер)
