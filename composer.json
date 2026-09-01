@@ -1,0 +1,40 @@
+{
+  "name": "stezkoy/flarum-telegram-notify",
+  "type": "flarum-extension",
+  "description": "Send Telegram notifications about new discussions and posts from Flarum",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Stezkoy",
+      "email": "stezko@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "source": "https://github.com/Stezkoy/flarum-telegram-notify",
+    "issues": "https://github.com/Stezkoy/flarum-telegram-notify/issues"
+  },
+  "require": {
+    "flarum/core": "^2.0",
+    "php": "^8.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "Stezkoy\\FlarumTelegramNotify\\": "src/"
+    }
+  },
+"extra": {
+      "flarum-extension": {
+        "title": "Telegram Notify",
+        "category": "feature",
+        "optional-dependencies": [
+          "flarum/tags"
+        ],
+        "icon": {
+          "name": "fab fa-telegram",
+          "backgroundColor": "#26A5E4",
+          "color": "#fff"
+        }
+      }
+    }
+}
